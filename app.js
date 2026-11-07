@@ -115,7 +115,7 @@ function seedState() {
       credits: 3, capacity: 58, selected: 58, type: '专业必修', rating: 4.8,
       time: [{ day: 0, slot: 0 }, { day: 2, slot: 1 }],
       location: '逸夫楼 A302', weeks: '1-16 周', prereq: '程序设计基础',
-      status: 'open', contentVersion: 'v2.3', contentUpdated: '2026-09-02',
+      status: 'open', contentVersion: 'v2.3', contentUpdated: '2026-11-02',
       description: '从线性表、树到图与排序算法，配套 8 次实验课。课程以 C/C++ 描述，强调复杂度分析与工程实现。',
       chapters: ['绪论与复杂度', '线性表与栈队列', '树与二叉搜索树', '图与最短路径', '排序与查找', '综合实验'],
     },
@@ -133,7 +133,7 @@ function seedState() {
       credits: 3.5, capacity: 60, selected: 41, type: '专业必修', rating: 4.7,
       time: [{ day: 0, slot: 2 }, { day: 3, slot: 1 }],
       location: '逸夫楼 A401', weeks: '1-16 周', prereq: '计算机组成原理',
-      status: 'open', contentVersion: 'v2.1', contentUpdated: '2026-09-01',
+      status: 'open', contentVersion: 'v2.1', contentUpdated: '2026-11-01',
       description: '进程、内存、文件系统与并发控制，配合 xv6 源码阅读和实验。',
       chapters: ['进程与线程', '调度', '同步与死锁', '内存管理', '文件系统', 'xv6 实验'],
     },
@@ -151,7 +151,7 @@ function seedState() {
       credits: 2, capacity: 80, selected: 72, type: '通识选修', rating: 4.9,
       time: [{ day: 2, slot: 2 }],
       location: '博学楼 C101', weeks: '1-12 周', prereq: '无',
-      status: 'open', contentVersion: 'v1.2', contentUpdated: '2026-09-03',
+      status: 'open', contentVersion: 'v1.2', contentUpdated: '2026-11-03',
       description: '从搜索、机器学习到生成式模型，面向非人工智能专业的入门课。',
       chapters: ['智能体与搜索', '机器学习基础', '神经网络', '生成式模型', '伦理与治理'],
     },
@@ -187,7 +187,7 @@ function seedState() {
       credits: 2, capacity: 30, selected: 12, type: '实践选修', rating: 4.9,
       time: [{ day: 0, slot: 0 }],
       location: '信息楼 B402', weeks: '3-14 周', prereq: '数据结构与算法',
-      status: 'open', contentVersion: 'v1.0', contentUpdated: '2026-09-04',
+      status: 'open', contentVersion: 'v1.0', contentUpdated: '2026-11-04',
       description: '以 ACM/ICPC 题型组织训练，每周一次专题赛与讲评。',
       chapters: ['贪心与构造', '动态规划', '图论', '数据结构进阶', '比赛复盘'],
     },
@@ -196,26 +196,26 @@ function seedState() {
       credits: 2, capacity: 1, selected: 0, type: '专业选修', rating: 4.8,
       time: [{ day: 4, slot: 3 }],
       location: '信息楼 B406', weeks: '1-12 周', prereq: '操作系统',
-      status: 'open', contentVersion: 'v1.0', contentUpdated: '2026-09-05',
+      status: 'open', contentVersion: 'v1.0', contentUpdated: '2026-11-05',
       description: '复制、共识、分区与容错。仅开放 1 个演示名额，用于并发抢课演示。',
       chapters: ['复制与一致性', '共识算法', '分区与容错', '分布式事务'],
     },
   ];
 
   const enrollments = [
-    { id: 'en-1', studentId: ME, courseId: 'CS201', status: 'ENROLLED', studentName: '林知夏', enrolledAt: '2026-09-01 09:12', seq: null },
-    { id: 'en-2', studentId: ME, courseId: 'CS303', status: 'ENROLLED', studentName: '林知夏', enrolledAt: '2026-09-01 09:14', seq: null },
-    { id: 'en-3', studentId: ME, courseId: 'EN204', status: 'ENROLLED', studentName: '林知夏', enrolledAt: '2026-09-01 09:16', seq: null },
-    { id: 'en-4', studentId: ME, courseId: 'CS305', status: 'WAITLIST', studentName: '林知夏', enrolledAt: '2026-09-02 10:05', seq: 1 },
-    { id: 'en-5', studentId: '2023010188', courseId: 'CS201', status: 'WAITLIST', studentName: '张雨桐', enrolledAt: '2026-09-02 10:01', seq: 1, hasConflict: true },
-    { id: 'en-6', studentId: '2023010231', courseId: 'CS201', status: 'WAITLIST', studentName: '王浩然', enrolledAt: '2026-09-02 10:02', seq: 2 },
+    { id: 'en-1', studentId: ME, courseId: 'CS201', status: 'ENROLLED', studentName: '林知夏', enrolledAt: '2026-11-01 09:12', seq: null },
+    { id: 'en-2', studentId: ME, courseId: 'CS303', status: 'ENROLLED', studentName: '林知夏', enrolledAt: '2026-11-01 09:14', seq: null },
+    { id: 'en-3', studentId: ME, courseId: 'EN204', status: 'ENROLLED', studentName: '林知夏', enrolledAt: '2026-11-01 09:16', seq: null },
+    { id: 'en-4', studentId: ME, courseId: 'CS305', status: 'WAITLIST', studentName: '林知夏', enrolledAt: '2026-11-02 10:05', seq: 1 },
+    { id: 'en-5', studentId: '2023010188', courseId: 'CS201', status: 'WAITLIST', studentName: '张雨桐', enrolledAt: '2026-11-02 10:01', seq: 1, hasConflict: true },
+    { id: 'en-6', studentId: '2023010231', courseId: 'CS201', status: 'WAITLIST', studentName: '王浩然', enrolledAt: '2026-11-02 10:02', seq: 2 },
   ];
 
   const applications = [
     {
       id: 'APP-2401', teacher: '周明远', courseName: '算法设计与分析', code: 'CS402',
       className: '计科 2301', capacity: 45, day: 2, slot: 3, location: '信息楼 B402',
-      weeks: '1-16 周', status: 'PENDING', submittedAt: '2026-09-03 10:20',
+      weeks: '1-16 周', status: 'PENDING', submittedAt: '2026-11-03 10:20',
       note: '面向大二下学期的专业选修，强调分治、动态规划与近似算法。',
     },
     {
@@ -227,7 +227,7 @@ function seedState() {
     {
       id: 'APP-2403', teacher: '李明哲', courseName: '网络协议分析', code: 'CS312',
       className: '计科 2301', capacity: 40, day: 3, slot: 3, location: '信息楼 B201',
-      weeks: '1-12 周', status: 'PENDING', submittedAt: '2026-09-04 14:10',
+      weeks: '1-12 周', status: 'PENDING', submittedAt: '2026-11-04 14:10',
       note: '基于 Wireshark 与 Scapy 的协议分析实践课。',
     },
   ];
@@ -249,7 +249,7 @@ function seedState() {
     },
     {
       id: 'GB-CS305', courseId: 'CS305', courseName: '计算机网络', className: '计科 2301',
-      teacher: '李明哲', status: 'SUBMITTED', submittedAt: '2026-09-05 16:20', publishedAt: null,
+      teacher: '李明哲', status: 'SUBMITTED', submittedAt: '2026-11-05 16:20', publishedAt: null,
       students: [
         { id: '2023010188', name: '张雨桐', usual: 86, final: 84 },
         { id: '2023010231', name: '王浩然', usual: 78, final: 82 },
@@ -277,7 +277,7 @@ function seedState() {
     gradeBooks,
     publishedGrades,
     evaluations: {
-      CS201: { rating: 5, comment: '实验课节奏很好，复杂度分析讲得清楚。', at: '2026-09-06 21:10' },
+      CS201: { rating: 5, comment: '实验课节奏很好，复杂度分析讲得清楚。', at: '2026-11-06 21:10' },
     },
     evalStats: {
       CS201: { avg: 4.8, count: 46, dist: [34, 9, 2, 1, 0] },
@@ -302,8 +302,8 @@ function seedState() {
     notifications: [
       { id: 'n1', title: '候补名额已更新', body: '计算机网络当前候补第 1 位，退课释放名额后将按顺序递补。', time: '今天 09:05', type: 'waitlist', read: false },
       { id: 'n2', title: '成绩发布提醒', body: '数据结构与算法成绩尚未发布，教师提交后由教务统一审核。', time: '昨天 18:20', type: 'grade', read: false },
-      { id: 'n3', title: '选课窗口开放', body: '2026 秋季学期补退选开放至 9 月 12 日 21:00。', time: '09-08 09:00', type: 'course', read: false },
-      { id: 'n4', title: '课程内容已更新', body: '操作系统第 4 章课件更新至 v2.1。', time: '09-07 16:40', type: 'content', read: true },
+      { id: 'n3', title: '选课窗口开放', body: '2026 秋季学期补退选开放至 11 月 12 日 21:00。', time: '11-07 09:00', type: 'course', read: false },
+      { id: 'n4', title: '课程内容已更新', body: '操作系统第 4 章课件更新至 v2.1。', time: '11-06 16:40', type: 'content', read: true },
     ],
     audit: [
       { id: 'LOG-1024', time: '今天 09:12', actor: '林知夏', role: '学生', action: '选课', target: '数据结构与算法', detail: '事务提交，selected_count 58/58', requestId: 'req_8f2a91c4', result: '成功' },
@@ -609,7 +609,7 @@ function renderLogin() {
           <div class="preview-top">
             <div>
               <div class="preview-title">今日教务</div>
-              <div class="preview-date">2026 年 9 月 8 日 · 星期一</div>
+              <div class="preview-date">2026 年 11 月 7 日 · 星期六</div>
             </div>
             <span class="live-pill">选课进行中</span>
           </div>
@@ -762,7 +762,7 @@ function renderDashboard(role) {
   const hour = new Date().getHours();
   const greeting = hour < 11 ? '早上好' : hour < 14 ? '中午好' : hour < 18 ? '下午好' : '晚上好';
   return `
-    ${pageHead(`${greeting}，${firstName}老师`.replace('老师', role === 'student' ? '同学' : role === 'academic' ? '老师' : role === 'admin' ? '老师' : '老师'), '这是你今天需要关注的教务动态。', '')}
+    ${pageHead(`${greeting}，${firstName}老师`.replace('老师', role === 'student' ? '同学' : role === 'academic' ? '老师' : role === 'admin' ? '老师' : '老师'), '这是您今天需要关注的教务动态。', '')}
     ${dashboardBanner(role)}
     <div class="stat-grid" style="margin-top: var(--s5);">
       ${stats.map((s) => statCard(s)).join('')}
@@ -784,7 +784,7 @@ function renderDashboard(role) {
     </div>
     <div class="panel" style="margin-top: var(--s5);">
       <div class="panel-head">
-        <div><div class="panel-title">最近通知</div><div class="panel-sub">与你当前角色相关的 2 条动态</div></div>
+        <div><div class="panel-title">最近通知</div><div class="panel-sub">与您当前角色相关的 2 条动态</div></div>
         <button class="btn btn-ghost btn-sm" type="button" data-action="nav" data-role="${role}" data-page="notices">全部通知 ${icon('arrow', 14)}</button>
       </div>
       <div class="notice-list">
@@ -804,7 +804,7 @@ function dashboardStats(role) {
     return [
       { label: '已选学分', value: currentCredits().toFixed(1), unit: `/ ${state.settings.creditLimit}`, icon: 'chart', tone: 'blue', foot: '本学期 3 门课程' },
       { label: '候补中', value: waitlistEntries().length, unit: '门', icon: 'clock', tone: 'amber', foot: '计算机网络第 1 位' },
-      { label: '待评价', value: enrolledCourses().filter((c) => !state.evaluations[c.id]).length, unit: '门', icon: 'star', tone: 'violet', foot: '评价截止 9 月 20 日' },
+      { label: '待评价', value: enrolledCourses().filter((c) => !state.evaluations[c.id]).length, unit: '门', icon: 'star', tone: 'violet', foot: '评价截止 11 月 20 日' },
       { label: '成绩已发布', value: state.publishedGrades.length, unit: '门', icon: 'check', tone: 'green', foot: '上学期课程' },
     ];
   }
@@ -819,7 +819,7 @@ function dashboardStats(role) {
   }
   if (role === 'academic') {
     return [
-      { label: '待审开课', value: state.applications.filter((a) => a.status === 'PENDING').length, unit: '项', icon: 'check-square', tone: 'amber', foot: '最早提交于 9 月 3 日' },
+      { label: '待审开课', value: state.applications.filter((a) => a.status === 'PENDING').length, unit: '项', icon: 'check-square', tone: 'amber', foot: '最早提交于 11 月 3 日' },
       { label: '待审成绩', value: state.gradeBooks.filter((b) => b.status === 'SUBMITTED').length, unit: '份', icon: 'check', tone: 'blue', foot: '计算机网络' },
       { label: '运行教学班', value: 126, unit: '个', icon: 'layers', tone: 'violet', foot: '本周新增 4 个' },
       { label: '选课异常', value: 0, unit: '条', icon: 'shield', tone: 'green', foot: '对账通过' },
@@ -869,7 +869,7 @@ function dashboardBanner(role) {
           <p>数据结构与算法已录入 8 名学生，提交后教师端锁定，等待教务审核。</p>
         </div>
         <div class="banner-time">
-          <div><div class="small muted">截止时间</div><div class="banner-clock">09-12 18:00</div></div>
+          <div><div class="small muted">截止时间</div><div class="banner-clock">11-12 18:00</div></div>
           <button class="btn btn-primary" type="button" data-action="nav" data-role="teacher" data-page="grade-entry">去录入 ${icon('arrow', 16)}</button>
         </div>
       </div>
@@ -955,7 +955,7 @@ function dashboardActivity(role) {
     { title: '教务发布了 2026 秋季补退选通知', time: '今天 09:00', icon: 'bell' },
     { title: '教师角色菜单新增“评教结果”', time: '昨天 17:40', icon: 'menu' },
     { title: '本月第 2 次权限复核完成', time: '昨天 14:10', icon: 'shield' },
-    { title: '审计日志导出成功', time: '09-06 10:30', icon: 'download' },
+    { title: '审计日志导出成功', time: '11-06 10:30', icon: 'download' },
   ];
   return `<div class="activity">${list.map((item) => `
     <div class="activity-item">
@@ -1135,7 +1135,7 @@ function renderSchedule(role) {
   return `
     ${pageHead('我的课表', PAGE_META.schedule.sub, `<span class="chip blue">${state.settings.semester}</span>`)}
     <div class="panel">
-      <div class="panel-head"><div><div class="panel-title">周视图</div><div class="panel-sub">第 3 周 · 9 月 14 日至 9 月 18 日</div></div><span class="chip green">${list.length} 门课程</span></div>
+      <div class="panel-head"><div><div class="panel-title">周视图</div><div class="panel-sub">第 9 周 · 11 月 2 日至 11 月 6 日</div></div><span class="chip green">${list.length} 门课程</span></div>
       <div class="panel-body">
         <div class="timetable-wrap">
           <div class="timetable">
@@ -1708,7 +1708,7 @@ function selectCourse(id) {
   if (!course) return;
   if (!state.settings.selectionOpen) return toast('选课窗口已关闭，请联系教务。', 'warn');
   const e = currentEnrollment(id);
-  if (e && (e.status === 'ENROLLED' || e.status === 'PROMOTED')) return toast('你已经选过这门课。', 'warn');
+  if (e && (e.status === 'ENROLLED' || e.status === 'PROMOTED')) return toast('您已经选过这门课。', 'warn');
   if (e && e.status === 'WAITLIST') return toast('这门课已在候补队列中。', 'warn');
   if (hasConflict(course)) return toast('与已选课程时间冲突，请先退掉冲突课程。', 'error');
   if (currentCredits() + course.credits > state.settings.creditLimit) {
@@ -1738,7 +1738,7 @@ function joinWaitlist(id, fromFull = false) {
   if (!state.settings.selectionOpen) return toast('选课窗口已关闭。', 'warn');
   const e = currentEnrollment(id);
   if (e && e.status === 'WAITLIST') return toast('已经在候补队列中。', 'warn');
-  if (e && (e.status === 'ENROLLED' || e.status === 'PROMOTED')) return toast('你已选上这门课。', 'warn');
+  if (e && (e.status === 'ENROLLED' || e.status === 'PROMOTED')) return toast('您已选上这门课。', 'warn');
   if (waitlistEntries().length >= state.settings.maxWaitlist) {
     return toast(`最多同时候补 ${state.settings.maxWaitlist} 门课程。`, 'warn');
   }
@@ -1851,8 +1851,8 @@ function promoteWaitlist(courseId) {
     e.promotedAt = nowText();
     course.selected = Math.min(course.capacity, course.selected + 1);
     addAudit('候补递补', course.name, `${e.studentName || e.studentId} 递补成功，selected_count ${course.selected}/${course.capacity}`);
-    pushNotification('候补递补成功', `${course.name} 已为你递补成功，请查看课表。`, 'waitlist');
-    return e.studentName || (e.studentId === ME ? '你' : e.studentId);
+    pushNotification('候补递补成功', `${course.name} 已为您递补成功，请查看课表。`, 'waitlist');
+    return e.studentName || (e.studentId === ME ? '您' : e.studentId);
   }
   return null;
 }
@@ -2077,7 +2077,7 @@ function openEvaluationModal(courseId) {
           </div>
         </div>
         <div class="field"><label for="comment">匿名建议</label><textarea id="comment" name="comment" placeholder="哪些地方做得好？哪里还可以改进？" style="min-height:120px;"></textarea></div>
-        <p class="field-hint" style="margin-top:var(--s3);">不记录你的身份；教师端只看到聚合分与匿名文本，样本少于 5 不展示明细。</p>
+        <p class="field-hint" style="margin-top:var(--s3);">不记录您的身份；教师端只看到聚合分与匿名文本，样本少于 5 不展示明细。</p>
       </form>
     `,
     foot: `<button class="btn btn-secondary" type="button" data-action="close-modal">取消</button><button class="btn btn-primary" type="submit" form="evaluationForm">提交匿名评价</button>`,
