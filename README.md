@@ -68,7 +68,7 @@ jwc-demo/
 2. 进入空仓库，点 **Add file → Upload files**。
 3. 把本目录里的 `index.html`、`styles.css`、`app.js`、`favicon.svg`、`og-cover.png`、`404.html`、`README.md`、`.nojekyll` 一起拖进去（不要拖外层 `jwc-demo` 文件夹），提交。
 4. 打开 **Settings → Pages**：Source 选 **Deploy from a branch**，Branch 选 **main**，目录选 **/ (root)**，保存。
-5. 等 1–2 分钟，访问 `https://<你的用户名>.github.io/jwc-demo/`。
+5. 等 1–2 分钟，访问 `https://<您的用户名>.github.io/jwc-demo/`。
 
 ### 命令行方式
 
@@ -81,7 +81,7 @@ git add .
 git commit -m "feat: add 知课教务 interactive demo"
 
 # 在 GitHub 新建空仓库 jwc-demo，然后：
-git remote add origin https://github.com/<你的用户名>/jwc-demo.git
+git remote add origin https://github.com/<您的用户名>/jwc-demo.git
 git branch -M main
 git push -u origin main
 ```
