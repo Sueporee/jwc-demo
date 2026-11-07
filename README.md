@@ -6,11 +6,7 @@
 
 ## 在线访问
 
-部署到 GitHub Pages 后，地址形如：
-
-```
-https://<你的 GitHub 用户名>.github.io/jwc-demo/
-```
+**已部署：** <https://Sueporee.github.io/jwc-demo/>
 
 本仓库根目录就是站点根目录，无需构建。
 
